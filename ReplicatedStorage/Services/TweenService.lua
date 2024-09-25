@@ -32,7 +32,7 @@ function TweenService:CreateMethodTween(instance: Instance, tweenInfo: TweenInfo
     return tween
 end
 
-extender.extend(TweenService, _TweenService)
+extender(TweenService, _TweenService)
 
 local module: typeof(_TweenService) & typeof(TweenService) = TweenService
 return module
