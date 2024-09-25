@@ -5,7 +5,7 @@ local table = require(script.Parent.Parent.Libraries.table)
 local Signal = require(script.Parent.Parent.Classes.Signal)
 
 local TagService = {}
-extender.instance(TagService, CollectionService)
+extender(TagService, CollectionService)
 
 function TagService:FindFirstAncestorOfTag(instance: Instance, tag: string)
 	local current = instance
