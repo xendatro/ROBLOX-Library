@@ -1,8 +1,3 @@
---[[
-arguably the greatest piece of code i've ever written
-- xendatro
-]]
-
 return function(t: {}, ...: {} | Instance)
     local extensions = table.pack(...)
     local function findTarget(index: string)
