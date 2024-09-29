@@ -3,8 +3,10 @@ return function(t: {}, ...: {} | Instance)
 	local function findTarget(index: string)
 		for _, extension in ipairs(extensions) do
 			local success, extensionType = pcall(function() 
-				if extension[index] == nil then
+				if typeof(extension) == "table" and extension[index] == nil then
 					error()
+				else 
+					local a = extension[index]
 				end
 				return type(extension)
 			end)
