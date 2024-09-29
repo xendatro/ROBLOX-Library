@@ -1,7 +1,6 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TagService = require(ReplicatedStorage.TagService)
 
-local ObjectSettings = require(ReplicatedStorage.ObjectSettings)
+local ObjectSettings = require(script.Parent.Parent.Settings.ObjectSettings)
 
 --[[Objectifier]]
 local Objectifier = {}
