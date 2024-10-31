@@ -3,4 +3,4 @@ This is my little library of scripts that I often reuse in my projects. All cont
 
 Primitive versions of this library have been used in a few of my projects:
 - [Escape Room Academy](https://www.roblox.com/games/16343978644/UPD-Escape-Room-Academy) (7M+ plays)
-- [ANGEL](https://www.roblox.com/games/18641630195/ANGEL-HORROR) (1M+ plays)
+- [ANGEL](https://www.roblox.com/games/18641630195/ANGEL-HORROR) (3M+ plays)
